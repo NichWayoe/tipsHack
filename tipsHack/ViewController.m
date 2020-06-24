@@ -35,8 +35,8 @@
     double tip = tipPercentage * bill;
     double total = bill + tip;
 
-    self.tipLabel.text= [NSString stringWithFormat:@"%.2f",tip];
-    self.totalLabel.text=[NSString stringWithFormat:@"%.2f",total];
+    self.tipLabel.text= [NSString stringWithFormat:@"$%.2f",tip];
+    self.totalLabel.text=[NSString stringWithFormat:@"$%.2f",total];
 }
 - (IBAction)onBegin:(id)sender {
     [UIView animateWithDuration:0.2 animations:^{
