@@ -16,6 +16,7 @@
 		2B733FC524A2CB52007B1CA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B733FC424A2CB52007B1CA8 /* main.m */; };
 		2B733FCF24A2CB52007B1CA8 /* tipsHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B733FCE24A2CB52007B1CA8 /* tipsHackTests.m */; };
 		2B733FDA24A2CB52007B1CA8 /* tipsHackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B733FD924A2CB52007B1CA8 /* tipsHackUITests.m */; };
+		2B73402D24A31030007B1CA8 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B73402C24A31030007B1CA8 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		2B733FD524A2CB52007B1CA8 /* tipsHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B733FD924A2CB52007B1CA8 /* tipsHackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipsHackUITests.m; sourceTree = "<group>"; };
 		2B733FDB24A2CB52007B1CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B73402B24A31030007B1CA8 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = tipsHack/SettingsViewController.h; sourceTree = "<group>"; };
+		2B73402C24A31030007B1CA8 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = tipsHack/SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		2B733FA624A2CB51007B1CA8 = {
 			isa = PBXGroup;
 			children = (
+				2B73402B24A31030007B1CA8 /* SettingsViewController.h */,
+				2B73402C24A31030007B1CA8 /* SettingsViewController.m */,
 				2B733FB124A2CB51007B1CA8 /* tipsHack */,
 				2B733FCD24A2CB52007B1CA8 /* tipsHackTests */,
 				2B733FD824A2CB52007B1CA8 /* tipsHackUITests */,
@@ -269,6 +274,7 @@
 			files = (
 				2B733FBA24A2CB51007B1CA8 /* ViewController.m in Sources */,
 				2B733FB424A2CB51007B1CA8 /* AppDelegate.m in Sources */,
+				2B73402D24A31030007B1CA8 /* SettingsViewController.m in Sources */,
 				2B733FC524A2CB52007B1CA8 /* main.m in Sources */,
 				2B733FB724A2CB51007B1CA8 /* SceneDelegate.m in Sources */,
 			);
