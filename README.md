@@ -33,6 +33,9 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
+1. Trying to understand the interface of Xcode was the main challenge of this project
+2. First time doing iOS development so it was difficult to understand some of the context but got better as I made more errors abd debug.
+3. Understanding how all the views work together
 
 Describe any challenges encountered while building the app.
 
