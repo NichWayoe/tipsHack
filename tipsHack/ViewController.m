@@ -24,7 +24,6 @@
     // Do any additional setup after loading the view.
 }
 - (IBAction)onTap:(id)sender {
-    NSLog(@"Hello");
     [self.view endEditing:YES];
     
 }
@@ -54,6 +53,29 @@
     [UIView animateWithDuration:1 animations: ^{
         self.tipLabel.alpha = 1;}];
     
+}
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    NSLog(@"View will appear");
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+
+    NSLog(@"View did appear");
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+
+    NSLog(@"View will disappear");
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+
+    NSLog(@"View did disappear");
 }
 
 @end
