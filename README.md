@@ -2,7 +2,7 @@
 
 TipsHack is a tip calculator application for iOS.
 
-Submitted by: Nicholas Wayoe
+Submitted by: **Nicholas Wayoe**
 
 Time spent: 4 hours spent in total
 
