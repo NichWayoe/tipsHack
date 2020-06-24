@@ -24,7 +24,6 @@
     // Do any additional setup after loading the view.
 }
 - (IBAction)onTap:(id)sender {
-    NSLog(@"Hello");
     [self.view endEditing:YES];
     
 }
@@ -35,8 +34,8 @@
     double tip = tipPercentage * bill;
     double total = bill + tip;
 
-    self.tipLabel.text= [NSString stringWithFormat:@"%.2f",tip];
-    self.totalLabel.text=[NSString stringWithFormat:@"%.2f",total];
+    self.tipLabel.text= [NSString stringWithFormat:@"$%.2f",tip];
+    self.totalLabel.text=[NSString stringWithFormat:@"$%.2f",total];
 }
 - (IBAction)onBegin:(id)sender {
     [UIView animateWithDuration:0.2 animations:^{
@@ -54,6 +53,29 @@
     [UIView animateWithDuration:1 animations: ^{
         self.tipLabel.alpha = 1;}];
     
+}
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    NSLog(@"View will appear");
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+
+    NSLog(@"View did appear");
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+
+    NSLog(@"View will disappear");
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+
+    NSLog(@"View did disappear");
 }
 
 @end
