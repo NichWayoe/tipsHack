@@ -28,9 +28,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/S2G4Sfm' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/3aVMfPR' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [imgur](https://imgur.com/vidgif).
 
 ## Notes
 1. Trying to understand the interface of Xcode was the main challenge of this project
